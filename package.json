@@ -1,0 +1,29 @@
+{
+  "name": "gurus-coffee-shop",
+  "version": "1.0.0",
+  "description": "A complete coffee shop e-commerce application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "coffee",
+    "e-commerce",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Guru's Coffee",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
+

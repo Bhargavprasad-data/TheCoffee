@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coffee bag background -->
+  <rect x="100" y="50" width="200" height="200" fill="#8B4513" rx="10"/>
+  
+  <!-- Label -->
+  <rect x="120" y="80" width="160" height="140" fill="#F5F5DC" rx="5"/>
+  
+  <!-- Coffee text -->
+  <text x="200" y="120" font-family="Arial" font-size="16" fill="#4A3E3E" text-anchor="middle">Ethiopian</text>
+  <text x="200" y="140" font-family="Arial" font-size="16" fill="#4A3E3E" text-anchor="middle">Yirgacheffe</text>
+  
+  <!-- Coffee beans decoration -->
+  <ellipse cx="160" y="180" rx="15" ry="10" fill="#654321" transform="rotate(-30 160 180)"/>
+  <ellipse cx="240" y="180" rx="15" ry="10" fill="#654321" transform="rotate(30 240 180)"/>
+  
+  <!-- Light roast indicator -->
+  <circle cx="200" y="180" r="20" fill="#D4B374"/>
+  <text x="200" y="185" font-family="Arial" font-size="12" fill="#4A3E3E" text-anchor="middle">Light</text>
+</svg>
