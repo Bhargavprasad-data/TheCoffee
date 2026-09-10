@@ -618,6 +618,3 @@ HTML5 Geolocation
 ```
 
 If you find this project useful, consider giving the repository a ⭐.
-
-**Repository:**
-https://github.com/Bhargavprasad-data/TheCoffee
